@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+	<meta charset="utf-8" />
+	<title>Show Coords</title>
+	<script src="../script/socket.io.js"></script>
+	<script async src="showcoords.js"></script>
+    <meta name="viewport" content="initial-scale=1.0, width=device-width, maximum-scale=1.0">
+    <style>
+        body {
+            font-family: 'Helvetica Neue', sans-serif;
+            line-height: 2;
+            font-size: 20px;
+        }
+        input {
+            width: 60px;
+            font-family: 'Helvetica Neue', sans-serif;
+            line-height: 2;
+            font-size: 20px;
+            border: none;
+            background: rgba(0,0,0,.01);
+        }
+        input[type="submit"] {
+            width: 120px;
+        }
+    </style>
+</head>
+<body>
+<form id="saveLocation">
+Latitude: <span id="latitude"></span><br>
+Longitude: <span id="longitude"></span><br>
+Accuracy: <span id="accuracy"></span> m<br>
+Punkt: <input type="number" id="number"><br>
+<input type="submit">
+</form>
+</body>
+</html>

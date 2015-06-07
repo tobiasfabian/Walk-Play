@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<title>Walk&amp;Play</title>
+    <link href="style/style.min.css" rel="stylesheet">
+    <link href="style/icon-iphone.png" sizes="120x120" rel="apple-touch-icon">
+    <script src="script/script.min.js" defer></script>
+    <meta name="description" content="Urban Psychogeography">
+    <meta name="author" content="Phillip Klein &amp; Tobias Wolf">
+    <meta name="keywords" content="psychogeography,game,weimar">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width, maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+</head>
+<body>
+    <div id="win_screen">
+        <span class="text"></span>
+        <span class="seconds"></span>
+    </div>
+	<div id="info_screen">
+	    <header>
+        	<h1>Walk&amp;Play</h1>
+        	<p>Urban Psychogeography</p>
+        </header>
+    	<svg xmlns="http://www.w3.org/2000/svg" id="status_circle" width="40" height="40">
+            <circle class="status_circle_outer" r="19" cx="20" cy="20"></circle>
+            <circle class="status_circle_inner" r="3" cx="20" cy="20"></circle>
+            <text x="20" y="29" text-anchor="middle" class="exclamation_mark">!</text>
+        </svg>
+        <div class="notification"></div>
+	</div>
+	<svg xmlns="http://www.w3.org/2000/svg" id="svg" width="320" height="320">
+        <g id="playground"></g>
+        <g id="players">
+            <circle class="player self outer_circle" cx="160" cy="190" r="6"></circle>
+            <circle class="player self" cx="160" cy="190" r="4"></circle>
+	    </g>
+	</svg>
+	<div id="score">
+        <span class="team1"></span>
+        <span class="team2"></span>
+	</div>	
+</body>
+</html>

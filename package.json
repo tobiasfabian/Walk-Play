@@ -1,0 +1,19 @@
+{
+  "name": "walp-play",
+  "version": "0.1.0",
+  "author": "Tobias F. Wolf",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tobiasfabian/Walk-Play"
+  },
+  "license": "GPL-2.0",
+  "readme": "Readme.md",
+  "website": "http://www.walkplay.org",
+  "description": "Urban Psychogeography – The urban shape as a playground.",
+  "contributors": "Phillip Klein",
+  "dependencies": {
+    "connect": "2.13.0",
+    "express": "3.4.8",
+    "socket.io": "0.9.16"
+  }
+}
