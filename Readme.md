@@ -1,11 +1,11 @@
 ### Walk&Play
 
-A mobile game. The urban space becomes a playground.  
+A mobile game. The urban space becomes a playground.
 
-The paving of the Weimar market place divide it into 25 squares. They function as the playground. To take part the player visits the website with its smartphone. 
-One square is highlighted. The player is figured as a circle on the playground. He is automatically associated with one of the two teams. As soon as the player is moving, his movement is visible on the screen.  
-The dynamic of the game depends solely on the highlighted square. Once every player of one team is standing in the highlighted square, the square will take the color of the team. A new random square will be highlighted, ready to be occupied.  
-The team which occupies more than half of the squares wins the set. The playground will be reseted and a new set begins.  
+The paving of the market square in Weimar divides it into 25 squares. This functions as the playground. To take part the player visits the website with a smartphone.
+One square is highlighted. The player is marked as a circle on the playground. He is automatically associated with one of two teams. As soon as the player is moving, his movements are visible on the screen.
+The dynamic of the game depends solely on the highlighted square. Once every player of one team is standing in the highlighted square, the square will take the color of the team. A new random square will be highlighted, ready to be occupied.
+The team which occupies more than half of the squares wins the set. The playground will be reset and a new set begins.
 The game is endless.
 
 *Das Pflaster des Weimarer Marktplatzes unterteilt ihn optisch in 25 viereckige Felder. Diese dienen als Spielfeld. Der Spieler besucht für die Teilnahme am Spiel die Website mit seinem Smartphone.  
